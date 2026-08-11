@@ -1,5 +1,11 @@
+import Main from "./assets/layout/Main";
+
 const App = () => {
-  return <></>;
+  return (
+    <>
+      <Main></Main>
+    </>
+  );
 };
 
 export default App;

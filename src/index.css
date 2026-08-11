@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+/* Font-face */
+
+:root {
+  /* Fonts */
+
+  /* Colors */
+
+  /* Container */
+  --container-max: 600px;
+  --container-padding: 1rem;
+
+  /* Button */
+
+  /* Font-sizes */
+
+
+
+}
+
+button {
+  cursor: pointer;
+}
