@@ -1,12 +1,23 @@
 const VariantCtrls = () => {
   return (
-    <footer
-      className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 w-full flex justify-around items-center gap-4"
-    >
-      <button type="button" data-switch="left"><i className="ri-arrow-left-long-line"></i></button>
-      <h3>Current Variant - <span>1</span></h3>
-      <button type="button" data-switch="right"><i className="ri-arrow-right-long-line"></i></button>
-      
+    <footer className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 w-full flex justify-around items-center gap-4">
+      <button
+        type="button"
+        data-switch="left"
+        className="text-(--color-white) text-2xl aspect-square h-10 bg-[image:var(--switch-bg)] rounded-full text-shadow-(--switch-text-shadow) shadow-(--switch-shadow) backdrop-blur-2xl"
+      >
+        <i className="ri-arrow-left-long-line"></i>
+      </button>
+      <h3 className="uppercase text-transparent text-shadow-(--current-variant-text-shadow) text-2xl text-stroke">
+        Current Variant - <span>1</span>
+      </h3>
+      <button
+        type="button"
+        data-switch="right"
+        className="text-(--color-white) text-2xl aspect-square h-10 bg-[image:var(--switch-bg)] rounded-full text-shadow-(--switch-text-shadow) shadow-(--switch-shadow) backdrop-blur-2xl"
+      >
+        <i className="ri-arrow-right-long-line"></i>
+      </button>
     </footer>
   );
 };

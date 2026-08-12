@@ -1,17 +1,39 @@
 @import "tailwindcss";
 
 /* Font-face */
+@font-face {
+  font-family: "Inter";
+  src: url("/src/assets/fonts/Inter-wght.ttf");
+}
 
 :root {
   /* Fonts */
+  --primary-font:
+    "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
   /* Colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
 
   /* Container */
   --container-max: 600px;
   --container-padding: 1rem;
 
-  /* Button */
+  /* switch */
+  --switch-bg: linear-gradient(
+    rgba(0, 0, 0, 0.3) 60%,
+    rgba(255, 255, 255, 0.1)
+  );
+  --switch-text-shadow:
+    0px 0px 4px var(--color-white), 0px 0px 8px var(--color-white),
+    0px 0px 16px var(--color-white);
+  --switch-shadow:
+    0px 1px 2px var(--color-white), 0px -2px 6px var(--color-black);
+
+  /* Current-variant-notifier */
+  --current-variant-text-shadow:
+    0px 0px 4px var(--color-white), 0px 0px 16px var(--color-white);
 
   /* Font-sizes */
 }
@@ -22,18 +44,25 @@ button {
 
 body {
   background: conic-gradient(
-    at 35% -10%,
+    at 30% -10%,
     rgb(0, 0, 0) 0%,
     rgb(0, 0, 0),
     rgb(0, 0, 0),
     rgb(0, 0, 0),
     rgb(0, 0, 0),
-    rgba(141, 86, 3, 0.315) 45%,
+    rgb(0, 0, 0),
+    rgba(141, 109, 3, 0.315) 45%,
+    rgb(0, 0, 0),
     rgb(0, 0, 0),
     rgb(0, 0, 0),
     rgb(0, 0, 0),
     rgb(0, 0, 0),
     rgb(0, 0, 0)
   );
-  background-color: rgb(151, 9, 9);
+  background-color: rgb(173, 8, 8);
+  font-family: var(--primary-font);
+}
+
+.text-stroke {
+  -webkit-text-stroke: var(--color-white) 1px;
 }

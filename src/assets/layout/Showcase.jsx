@@ -5,7 +5,6 @@ const Showcase = () => {
       h-full w-full
       p-2"
     >
-      Showcase
     </section>
   );
 };
