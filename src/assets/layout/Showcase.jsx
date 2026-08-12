@@ -1,9 +1,13 @@
 const Showcase = () => {
   return (
-    <section className="bg-amber-700 h-full w-full">
+    <section
+      className="
+      h-full w-full
+      p-2"
+    >
       Showcase
     </section>
-  )
-}
+  );
+};
 
-export default Showcase
+export default Showcase;
