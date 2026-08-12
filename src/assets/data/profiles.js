@@ -27,8 +27,8 @@ const profiles = [
   },
 
   {
-    avatar: "/images/characters/spider-man/avatar.jpg",
-    coverImage: "/images/characters/spider-man/cover.jpg",
+    avatar: "/images/characters/spiderman/avatar.jpg",
+    coverImage: "/images/characters/spiderman/cover.jpg",
 
     username: "SpiderMan",
     fullName: "Peter Parker",
@@ -54,8 +54,8 @@ const profiles = [
   },
 
   {
-    avatar: "/images/characters/iron-man/avatar.jpg",
-    coverImage: "/images/characters/iron-man/cover.jpg",
+    avatar: "/images/characters/ironman/avatar.jpg",
+    coverImage: "/images/characters/ironman/cover.jpg",
 
     username: "IronMan",
     fullName: "Tony Stark",
@@ -81,8 +81,8 @@ const profiles = [
   },
 
   {
-    avatar: "/images/characters/wonder-woman/avatar.jpg",
-    coverImage: "/images/characters/wonder-woman/cover.jpg",
+    avatar: "/images/characters/wonderwoman/avatar.jpg",
+    coverImage: "/images/characters/wonderwoman/cover.jpg",
 
     username: "WonderWoman",
     fullName: "Diana Prince",
@@ -135,8 +135,8 @@ const profiles = [
   },
 
   {
-    avatar: "/images/characters/luke-skywalker/avatar.jpg",
-    coverImage: "/images/characters/luke-skywalker/cover.jpg",
+    avatar: "/images/characters/lukeskywalker/avatar.jpg",
+    coverImage: "/images/characters/lukeskywalker/cover.jpg",
 
     username: "LukeSkywalker",
     fullName: "Luke Skywalker",
@@ -162,8 +162,8 @@ const profiles = [
   },
 
   {
-    avatar: "/images/characters/darth-vader/avatar.jpg",
-    coverImage: "/images/characters/darth-vader/cover.jpg",
+    avatar: "/images/characters/darthvader/avatar.jpg",
+    coverImage: "/images/characters/darthvader/cover.jpg",
 
     username: "DarthVader",
     fullName: "Anakin Skywalker",
@@ -216,8 +216,8 @@ const profiles = [
   },
 
   {
-    avatar: "/images/characters/black-panther/avatar.jpg",
-    coverImage: "/images/characters/black-panther/cover.jpg",
+    avatar: "/images/characters/blackpanther/avatar.jpg",
+    coverImage: "/images/characters/blackpanther/cover.jpg",
 
     username: "BlackPanther",
     fullName: "T'Challa",
@@ -243,8 +243,8 @@ const profiles = [
   },
 
   {
-    avatar: "/images/characters/harley-quinn/avatar.jpg",
-    coverImage: "/images/characters/harley-quinn/cover.jpg",
+    avatar: "/images/characters/harleyquinn/avatar.jpg",
+    coverImage: "/images/characters/harleyquinn/cover.jpg",
 
     username: "HarleyQuinn",
     fullName: "Harleen Quinzel",
