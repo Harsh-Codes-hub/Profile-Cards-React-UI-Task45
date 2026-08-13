@@ -1,5 +1,8 @@
-import VariantOne from "../components/varinants/VariantOne";
+// import VariantOne from "../components/variants/VariantOne";
+import VariantTwo from "../components/variants/VariantTwo";
 import profiles from "../data/profiles.js"
+
+const data = profiles[0];
 
 const Showcase = () => {
   return (
@@ -9,9 +12,18 @@ const Showcase = () => {
       p-2
       flex
       flex-col
-      items-center"
+      items-center
+      justify-center"
     >
-      <VariantOne avatar={profiles[0].avatar} coverImage={profiles[0].coverImage}/>
+      {/* <VariantOne
+        key={data.avatar}
+        {...data}
+      /> */}
+
+      <VariantTwo
+        key={data.avatar}
+        {...data}
+      />
     </section>
   );
 };
