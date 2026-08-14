@@ -2,8 +2,7 @@ import { formatCount } from "../../utils/formatCount";
 
 const VariantOne = ({ avatar, coverImage, username, fullName, bio, mediaCount, followersCount, followingCount }) => {
   return (
-    <article className="bg-white min-h-140 w-110 flex flex-col p-3
-    shadow-(--card-shadow)">
+    <article className="bg-white w-110 flex flex-col p-3">
       <header className="h-40">
         <img
           src={coverImage}
@@ -15,7 +14,7 @@ const VariantOne = ({ avatar, coverImage, username, fullName, bio, mediaCount, f
         <img
           src={avatar}
           alt="cover"
-          className="h-25 aspect-square rounded-full border-4 border-(--color-white) absolute left-1/2 -translate-x-1/2 top-[-16px]"
+          className="h-25 aspect-square rounded-full p-1 absolute left-1/2 -translate-x-1/2 top-[-16px] bg-(--color-white)"
         />
         <div className="flex justify-between text-2xl py-4 text-(--color-grey)">
           <button type="button">
@@ -28,7 +27,7 @@ const VariantOne = ({ avatar, coverImage, username, fullName, bio, mediaCount, f
         <div className="text-center mt-8">
           <h1 className="text-4xl font-medium">{username}</h1>
           <h2 className="text-(--color-grey)">{fullName}</h2>
-          <p className="max-w-100 mx-auto mt-4">{bio}</p>
+          <p className="max-w-100 mx-auto mt-4 h-20">{bio}</p>
         </div>
         <div className="border-t-2 border-(--color-grey) my-8 mx-auto w-15 opacity-40"></div>
       </section>

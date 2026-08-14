@@ -14,8 +14,10 @@
 
   /* Colors */
   --color-white: #ffffff;
+  --color-off-white: #F5F5F5;
   --color-black: #000000;
-  --color-grey: grey;
+  --color-grey: rgb(78, 73, 73);
+  --color-light-grey: rgba(78, 73, 73, 0.116);
 
   /* Container */
   --container-max: 600px;
@@ -40,6 +42,9 @@
 
   /* Cards */
   --card-shadow: 2px 4px 10px var(--color-white), inset 2px 4px 10px var(--color-white);
+
+  /* Button Shadow */
+  --follow-btn-shadow: -2px 4px 8px rgba(0, 0, 0, 0.3), inset -2px 4px 8px var(--color-white);
 }
 
 button {
