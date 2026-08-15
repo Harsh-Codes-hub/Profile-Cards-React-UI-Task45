@@ -1,7 +1,7 @@
 // import VariantOne from "../components/variants/VariantOne";
 // import VariantTwo from "../components/variants/VariantTwo";
-import VariantThree from "../components/variants/VariantThree";
-// import VariantFour from "../components/variants/VariantFour";
+// import VariantThree from "../components/variants/VariantThree";
+import VariantFour from "../components/variants/VariantFour";
 // import VariantFive from "../components/variants/VariantFive";
 
 import profiles from "../data/profiles.js"
@@ -29,15 +29,15 @@ const Showcase = () => {
         {...data}
       /> */}
 
-      <VariantThree
-        key={data.avatar}
-        {...data}
-      />
-
-      {/* <VariantFour
+      {/* <VariantThree
         key={data.avatar}
         {...data}
       /> */}
+
+      <VariantFour
+        key={data.avatar}
+        {...data}
+      />
 
       {/* <VariantFive
         key={data.avatar}
