@@ -48,6 +48,8 @@
 
   /* Button Shadow */
   --follow-btn-shadow: -2px 4px 8px rgba(0, 0, 0, 0.3), inset -2px 4px 8px var(--color-white);
+  --follow-btn-shadow-2: 0px 4px 8px rgba(0, 0, 0, 0.3), inset 0px 2px 10px var(--color-light-grey);
+  --save-btn-shadow: 0px 0px 8px var(--color-light-grey);
 }
 
 button {

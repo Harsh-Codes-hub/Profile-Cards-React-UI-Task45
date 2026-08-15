@@ -57,7 +57,7 @@ const profiles = [
     avatar: "/images/characters/ironman/avatar.jpg",
     coverImage: "/images/characters/ironman/cover.jpg",
 
-    username: "IronMan",
+    username: "Iron Man",
     fullName: "Tony Stark",
 
     subtitle: "Genius. Billionaire. Philanthropist. Inventor.",
@@ -84,7 +84,7 @@ const profiles = [
     avatar: "/images/characters/wonderwoman/avatar.jpg",
     coverImage: "/images/characters/wonderwoman/cover.jpg",
 
-    username: "WonderWoman",
+    username: "Wonder Woman",
     fullName: "Diana Prince",
 
     subtitle: "Truth is stronger than fear.",
@@ -138,7 +138,7 @@ const profiles = [
     avatar: "/images/characters/lukeskywalker/avatar.jpg",
     coverImage: "/images/characters/lukeskywalker/cover.jpg",
 
-    username: "LukeSkywalker",
+    username: "Luke Skywalker",
     fullName: "Luke Skywalker",
 
     subtitle: "A Jedi seeks knowledge and peace.",
@@ -165,7 +165,7 @@ const profiles = [
     avatar: "/images/characters/darthvader/avatar.jpg",
     coverImage: "/images/characters/darthvader/cover.jpg",
 
-    username: "DarthVader",
+    username: "Darth Vader",
     fullName: "Anakin Skywalker",
 
     subtitle: "The Force will be with me. Always.",
@@ -219,7 +219,7 @@ const profiles = [
     avatar: "/images/characters/blackpanther/avatar.jpg",
     coverImage: "/images/characters/blackpanther/cover.jpg",
 
-    username: "BlackPanther",
+    username: "Black Panther",
     fullName: "T'Challa",
 
     subtitle: "Wakanda forever.",
@@ -246,7 +246,7 @@ const profiles = [
     avatar: "/images/characters/harleyquinn/avatar.jpg",
     coverImage: "/images/characters/harleyquinn/cover.jpg",
 
-    username: "HarleyQuinn",
+    username: "Harley Quinn",
     fullName: "Harleen Quinzel",
 
     subtitle: "Property of absolutely nobody.",

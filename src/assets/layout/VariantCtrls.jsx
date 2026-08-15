@@ -8,7 +8,7 @@ const VariantCtrls = () => {
       >
         <i className="ri-arrow-left-long-line"></i>
       </button>
-      <h3 className="uppercase text-transparent text-shadow-(--current-variant-text-shadow) text-2xl text-stroke">
+      <h3 className="uppercase text-transparent text-shadow-(--current-variant-text-shadow) text-2xl text-stroke whitespace-nowrap">
         Current Variant - <span>1</span>
       </h3>
       <button
