@@ -1,8 +1,8 @@
 import CardHolder from "./CardHolder";
 import profiles from "../data/profiles";
-const data = profiles[9];
+const data = profiles[1];
 
-const Showcase = () => {
+const Showcase = ({currentVariant}) => {
   return (
     <section
       className="
@@ -12,7 +12,7 @@ const Showcase = () => {
       items-center
       justify-center"
     >
-      <CardHolder data={data} variant={0}/>
+      <CardHolder data={data} variant={currentVariant} />
     </section>
   );
 };
