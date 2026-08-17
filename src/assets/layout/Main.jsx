@@ -5,10 +5,11 @@ import Container from "../components/Container";
 
 const Main = () => {
   const [currentVariant, setCurrentVariant] = useState(0);
+  const [currentProfile, setCurrentProfile] = useState(0);
   return (
     <main className="relative w-full h-dvh">
       <Container>
-        <Showcase currentVariant={currentVariant}></Showcase>
+        <Showcase currentVariant={currentVariant} currentProfile={currentProfile} setCurrentProfile={setCurrentProfile}></Showcase>
         <VariantCtrls currentVariant={currentVariant} setCurrentVariant={setCurrentVariant}></VariantCtrls>
       </Container>
     </main>
